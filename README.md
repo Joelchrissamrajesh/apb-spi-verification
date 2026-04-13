@@ -93,6 +93,13 @@ apb-spi-verification/
 │
 └── README.md
 
+## How to Run
+
+cd sim
+make run
+
+- Scoreboard used to compare expected and actual data between APB and SPI interfaces
+  
 ## Future Enhancements
 - UVM-based constrained random verification
 - Functional and code coverage integration
