@@ -26,6 +26,7 @@ The design consists of:
 - SPI data transfer and timing verification
 - SystemVerilog Assertions (SVA) for protocol checking
 - Lint checks for synthesizable RTL
+- Scoreboard used to compare expected and actual data between APB and SPI interfaces
 
 ## Results
 - Successfully verified APB read/write transactions
@@ -97,8 +98,6 @@ apb-spi-verification/
 
 cd sim
 make run
-
-- Scoreboard used to compare expected and actual data between APB and SPI interfaces
   
 ## Future Enhancements
 - UVM-based constrained random verification
